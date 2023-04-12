@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1A1A20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.icon {
+  width: 0.8em;
+  height: 0.8em;
+  margin-bottom: 0.1em;
+  margin-right: 0.3em;
+}
+
+h1 {
+  color: #1A1A20;
+  background-color: #ffaa33;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+#title {
+  height: 4rem;
+  padding: 0.5rem;
+}
+
+div {
+  width: 100%;
+}
+
+#add-task {
+  position: absolute;
+  top: 0.6rem;
+  right: 1rem;
+  width: 6rem;
+  height: 2.5rem;
+  color: #ffaa33;
+  background-color: #1A1A20;
+  border: 3px solid #1A1A20;
+}
+
+#add-task:hover {
+  color: #1A1A20;
+  background-color: #ffaa33;
+  border: 3px solid #1A1A20;
+}
+
+#sub-title {
+  margin: auto;
+  width: 95%;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+}
+
+#sub-title h2 {
+  width: 16.7%;
+  color: #ffaa33;
+}
+
+button {
+  border-radius: 0.4rem;
+  margin: 0.2rem;
+  padding: 0.5rem;
+}
+
+.MuiTextField-root {
+  width: 80% !important;
+  border: 0;
+  margin: 5% 10% 0.1rem 10% !important;
+  padding: 0.5rem !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  /* background-color: #1A1A20 !important; */
+  border: 1px solid #ffaa33 !important;
+  border-radius: 0.4rem !important;
+}
+
+.Mui-focused {
+  color: #ffaa33 !important;
+}
+
+.MuiOutlinedInput-root.Mui-error {
+  border: 2px solid #ff0000 !important;
+  border-radius: 0.5rem !important;
+}
+
+.MuiInputBase-input {
+  color: #ffaa33 !important;
+}
+
+#blur-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1A1A2040;
+  backdrop-filter: blur(2px);
+}
+
+.TodoForm {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  width: 20%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 1px solid #ffaa33;
+  border-radius: 0.5em;
+  background-color: #1A1A20;
+}
+
+.TodoForm h1 {
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
+  width: 100%;
+}
+
+.TodoForm label {
+  color: #ffaa33;
+  margin-top: 0.2rem;
+  margin-right: 0.5rem;
+  font-size: 0.6rem;
+}
+
+.TodoForm .MuiFormGroup-root {
+  width: 100%;
+  display: flex !important;
+  flex-direction: row !important;
+  margin-left: 12% !important;
+  margin-top: 0 !important;
+  margin-bottom: 1.2rem !important;
+}
+
+.TodoForm .MuiInputBase-adornedEnd {
+  padding: 0;
+}
+
+.TodoForm .MuiIconButton-edgeEnd {
+  position: absolute;
+  right: 10%;
+}
+
+.TodoForm .MuiInputAdornment-positionEnd {
+  width: 10%;
+}
+
+.TodoForm #todo-btn-group {
+  position: absolute;
+  bottom: 5%;
+}
+
+.TodoForm #submit-btn {
+  width: 8rem;
+  background-color: #ffaa33;
+}
+
+.TodoForm #cancel-btn {
+  width: 8rem;
+  background-color: #1A1A20;
+  color: #ffaa33;
+  border: 1px solid #ffaa33;
+}
+
+.Todo {
+  margin: auto;
+  width: 95%;
+  height: 6rem;
+  color: #ffaa33;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #ffaa33;
+  border-radius: 0.5rem;
+}
+
+.Todo div {
+  margin-top: 2rem;
+  width: 16.7%;
+}
+
+.Todo #todo-actions {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.Todo #todo-actions button {
+  margin: auto;
+  width: 60%;
+  height: 2rem;
+  padding: 0.2rem;
+}
+
+.Todo #todo-actions #upd-btn {
+  color: #1A1A20;
+  background-color: #ffaa33;
+  border: 2px solid #ffaa33;
+  margin-bottom: 0.3rem;
+}
+
+.Todo #todo-actions #upd-btn:hover {
+  background-color: #ee9933;
+  border: 2px solid #ee9933;
+}
+
+.Todo #todo-actions #dlt-btn {
+  color: #ffaa33;
+  background-color: #1A1A20;
+  border: 2px solid #ffaa33;
+}
+
+.Todo #todo-actions #dlt-btn:hover {
+  color: #1A1A20;
+  background-color: #ee9933;
+  border: 2px solid #ee9933;
+}
+
+.MuiSnackbar-anchorOriginBottomRight {
+  width: 30%;
+}
+ 
